@@ -48,6 +48,14 @@ This activity handles the quiz logic. It fetches quiz data from an API, displays
 ### FinishActivity.kt
 This activity shows the user's score after completing a quiz. It displays the result in the form of stars based on the user's performance. The page also provides options to go to the previous level, next level, or quit the game. It also stores the user's progress in Firebase Firestore.
 
+### SignUpActivity.kt
+This activity allows new users to create an account. It integrates with Firebase Authentication to register users using their email and password. 
+
+### SignInActivity.kt
+This activity allows existing users to log in. It uses Firebase Authentication to authenticate users with their email and password. Upon successful login, users are redirected to the main screen.
+
 # Firebase Integration
 * The app uses Firebase Authentication for user login and registration.
 * User progress is stored in Firestore, which includes the level and the number of correct answers.
+
+  
