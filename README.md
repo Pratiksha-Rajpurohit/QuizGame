@@ -70,4 +70,6 @@ This activity allows existing users to log in. It uses Firebase Authentication t
 * The app uses Firebase Authentication for user login and registration.
 * User progress is stored in Firestore, which includes the level and the number of correct answers.
 
+# Contact
+For any questions or suggestions, please open an issue on GitHub or contact the repository owner at rajpurohitpratiksha123@gmail.com.
   
