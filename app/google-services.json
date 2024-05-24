@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "337698398938",
+    "project_id": "quizgame-c8f94",
+    "storage_bucket": "quizgame-c8f94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337698398938:android:d0f357ccb246d020d4bbe3",
+        "android_client_info": {
+          "package_name": "com.pratiksha.quizgame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD81dtN9HvLbkxwnI_2TYgrTeHQe2kplSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

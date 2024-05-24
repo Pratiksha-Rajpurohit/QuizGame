@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activity.FinishActivity">
+
+    <ImageView
+        android:id="@+id/logoIV"
+        android:layout_width="400dp"
+        android:layout_height="190dp"
+        android:src="@drawable/trophy_3112946"
+
+        app:layout_constraintBottom_toTopOf="@+id/restartBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="2dp"
+        android:paddingVertical="5dp"
+        app:layout_constraintBottom_toTopOf="@id/score"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logoIV">
+
+        <ImageView
+            android:id="@+id/star1IV"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+
+
+            android:src="@drawable/star_2956792" />
+
+        <ImageView
+            android:id="@+id/star2IV"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+
+
+            android:src="@drawable/star_2956792" />
+
+        <ImageView
+            android:id="@+id/star3IV"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+
+
+            android:src="@drawable/star_2956792" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="0/0"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/restartBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoIV" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/restartBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginVertical="9dp"
+
+        android:backgroundTint="@color/blue"
+        android:paddingHorizontal="25dp"
+        android:paddingVertical="16dp"
+        android:text="restart Quiz"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+
+        app:layout_constraintBottom_toTopOf="@id/quitBtn"
+
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="9dp"
+        android:layout_marginEnd="20dp"
+
+        android:backgroundTint="@color/blue"
+        android:paddingHorizontal="25dp"
+        android:paddingVertical="16dp"
+        android:text=" next level "
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toTopOf="@id/quitBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/quitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#FFC107"
+        android:paddingVertical="16dp"
+
+        android:text="quit"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
