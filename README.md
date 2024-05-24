@@ -2,11 +2,23 @@
 QuizGame is an Android application that allows users to participate in various quizzes across different levels. The app is integrated with Firebase for user authentication and Firestore for storing user progress.
 
 # Features
-User authentication with Firebase
-Multiple levels of quizzes
-Different categories of quizzes
-Real-time data storage with Firebase Firestore
-Responsive UI with RecyclerView and GridLayoutManager
+* User authentication with Firebase
+* Multiple levels of quizzes
+* Different categories of quizzes
+* data storage with Firebase Firestore
+* Responsive UI with RecyclerView and GridLayoutManager
+
+# ScreenShots
+
+![Screenshot 2024-05-23 193156](https://github.com/Pratiksha-Rajpurohit/QuizGame/assets/132194955/7ef8339e-8110-437a-afbb-4672e803ced4)
+![Screenshot 2024-05-24 103144](https://github.com/Pratiksha-Rajpurohit/QuizGame/assets/132194955/72ad9f25-353d-4887-9157-113d2049dc10)
+![Screenshot 2024-05-23 192330](https://github.com/Pratiksha-Rajpurohit/QuizGame/assets/132194955/5d78dc6f-7db0-424f-9264-9fdfd9e23c67)
+![Screenshot 2024-05-23 192642](https://github.com/Pratiksha-Rajpurohit/QuizGame/assets/132194955/3826513c-ab8d-4c4b-905c-56cf362df39c)
+![Screenshot 2024-05-23 192709](https://github.com/Pratiksha-Rajpurohit/QuizGame/assets/132194955/a7133ed2-ceba-41dd-ad47-0325d9b7b780)
+![Screenshot 2024-05-23 192821](https://github.com/Pratiksha-Rajpurohit/QuizGame/assets/132194955/0647870f-a524-461a-be94-de1eac60c0ff)
+![Screenshot 2024-05-23 192739](https://github.com/Pratiksha-Rajpurohit/QuizGame/assets/132194955/8cbb8d77-c4e3-4c4f-8731-6dddea90f72e)
+
+
 
 # Getting Started
 ### Prerequisites
