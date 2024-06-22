@@ -28,7 +28,7 @@ QuizGame is an Android application that allows users to participate in various q
  1. Clone the repository:
  ```bash
 
-git clone https://github.com/yourusername/quizgame.git
+git clone https://github.com/Pratiksha-Rajpurohit/quizgame.git
  ```
 
 2. Open the project in Android Studio.
