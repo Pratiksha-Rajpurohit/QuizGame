@@ -42,8 +42,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
-            android:textColorHint="@color/white"
-            android:textColor="@color/white"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
 
             />
 
@@ -76,8 +76,8 @@
             android:layout_height="wrap_content"
             android:hint="Password"
 
-            android:textColorHint="@color/white"
-            android:textColor="@color/white"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
             />
 
 

@@ -11,15 +11,14 @@ import androidx.recyclerview.widget.RecyclerView
 import android.content.Context
 import android.util.Log
 import android.widget.ImageView
-import android.widget.Toast
 import com.google.firebase.Firebase
 import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.auth
 import com.google.firebase.firestore.firestore
 import com.pratiksha.quizgame.R
 import com.pratiksha.quizgame.activity.QuizActivity
-import com.pratiksha.quizgame.classes.Levels
-import com.pratiksha.quizgame.classes.PreviousLevels
+import com.pratiksha.quizgame.db.Levels
+import com.pratiksha.quizgame.db.PreviousLevels
 
 
 class LevelAdoptor(
@@ -54,10 +53,6 @@ class LevelAdoptor(
         holder.levelTv.text = listOfLevel[position].level.toString()
 
         var correctAns = fetchData(holder,position).toString()
-
-
-
-
 
             holder.itemsCardView.setOnClickListener {
 //                if(listOfLevel[position].level.toString() == "1"  || correctAns.toInt() > 1) {

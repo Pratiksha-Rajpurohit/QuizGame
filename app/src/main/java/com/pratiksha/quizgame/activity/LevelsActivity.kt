@@ -7,8 +7,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.Firebase
 import com.google.firebase.firestore.firestore
 import com.pratiksha.quizgame.adopter.LevelAdoptor
-import com.pratiksha.quizgame.classes.Levels
-import com.pratiksha.quizgame.classes.PreviousLevels
+import com.pratiksha.quizgame.db.Levels
+import com.pratiksha.quizgame.db.PreviousLevels
 import com.pratiksha.quizgame.databinding.ActivityLevelsBinding
 
 

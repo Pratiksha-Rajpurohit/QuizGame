@@ -11,8 +11,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.auth
 import com.google.firebase.firestore.firestore
 import com.pratiksha.quizgame.R
-import com.pratiksha.quizgame.classes.Levels
-import com.pratiksha.quizgame.classes.PreviousLevels
+import com.pratiksha.quizgame.db.PreviousLevels
 import com.pratiksha.quizgame.databinding.ActivityFinishBinding
 
 class FinishActivity : AppCompatActivity() {
@@ -36,6 +35,11 @@ class FinishActivity : AppCompatActivity() {
         val totalCorrectAns = bundle?.getInt("correctAnswer")
         val totalQuestion = bundle?.getInt("questionSize")
         val level = bundle?.getInt("level")
+
+        Log.i("Level1", "level $level")
+        Log.i("Level1", "correct $totalCorrectAns ")
+
+
 
         println("+++++++++_____FinPLevel__((((${level}++++++++++++++++++++++++++++++")
 
@@ -84,7 +88,8 @@ class FinishActivity : AppCompatActivity() {
         }
 
         binding.nextBtn.setOnClickListener {
-
+            Log.i("Level1", "ab check kr level $level")
+            Log.i("Level1", "correct $totalCorrectAns ")
             println("__________NextLevel________________________________________")
             val intent = Intent(this, LevelsActivity::class.java)
             intent.putExtra("totalCorrectAns", totalCorrectAns)
@@ -93,8 +98,10 @@ class FinishActivity : AppCompatActivity() {
             finish()
         }
 
-        binding.restartBtn.setOnClickListener {
-            startActivity(Intent(this, QuizActivity::class.java))
+        binding.restartBtn.setOnClickListener{
+            val intent = Intent(this, QuizActivity::class.java)
+            intent.putExtra("level", level)
+            startActivity(intent)
             finish()
         }
 
