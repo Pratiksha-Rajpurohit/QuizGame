@@ -19,33 +19,6 @@ QuizGame is an Android application that allows users to participate in various q
 ![Screenshot 2024-05-23 192739](https://github.com/Pratiksha-Rajpurohit/QuizGame/assets/132194955/8cbb8d77-c4e3-4c4f-8731-6dddea90f72e)
 
 
-
-# Getting Started
-### Prerequisites
-* Android Studio
-* Firebase account
-### Installation
- 1. Clone the repository:
- ```bash
-
-git clone https://github.com/Pratiksha-Rajpurohit/quizgame.git
- ```
-
-2. Open the project in Android Studio.
-
-3. Set up Firebase:
-    - Go to the Firebase Console and create a new project.
-    - Add an Android app to your project with your app's package name.
-    - Download the google-services.json file and place it in the app directory of your project.
-    - Add the Firebase SDK to your project by following the instructions in the Firebase Console.
-    - Sync the project with Gradle files.
-
-4. Running the Application
-    - Build and run the application on an emulator or physical device.
-
-    - Sign up or log in using your Firebase credentials.
-
-    - Start playing the quiz by selecting a level and answering the questions.
   
 # Code Overview
 ### MainActivity.kt
