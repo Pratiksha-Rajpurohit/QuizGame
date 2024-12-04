@@ -8,6 +8,9 @@ QuizGame is an Android application that allows users to participate in various q
 * data storage with Firebase Firestore
 * Responsive UI with RecyclerView and GridLayoutManager
 
+# ScreenRecording
+  https://github.com/user-attachments/assets/f5bf3b84-5288-4782-9764-8fdc4dcf0fa6
+
 # ScreenShots
 
 ![Screenshot 2024-05-23 193156](https://github.com/Pratiksha-Rajpurohit/QuizGame/assets/132194955/7ef8339e-8110-437a-afbb-4672e803ced4)
